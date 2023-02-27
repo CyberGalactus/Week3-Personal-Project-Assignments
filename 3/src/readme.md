@@ -1,0 +1,1 @@
+jag ändrade min ide och bestämmde mig för att göra en timer och blev inspiredad av denna bild https://dribbble.com/shots/11285224-Daily-UI-014-Countdown-Timer 

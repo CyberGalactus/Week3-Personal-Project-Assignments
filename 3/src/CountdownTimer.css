@@ -1,0 +1,96 @@
+.timer-select {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: #FF3366;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.timer-select:hover {
+  background-color: #FF679B;
+}
+
+.timer-box {
+  background-color: #1f1f1f;
+  border: 7px solid #000000;
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5%;
+  height: 700px;
+  width: 356px;
+}
+
+.timer-container {
+  width: 100%;
+  height: 82%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.countdown-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-display {
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+}
+
+.timer-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.timer-button {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  font-size: 29px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #e75c43;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.timer-button:hover {
+  background-color: #e94427;
+}
+
+.timer-button:active {
+  transform: scale(0.9);
+}
+
+.timer-button.active {
+  background-color: #CCCCCC;
+  color: #666666;
+  cursor: default;
+}
+
+footer{
+  font-size: 1.3em;
+  margin-top: 3%;
+  text-align: -webkit-center;
+}
+
+footer a{
+  color: #000000;
+  font-weight: 600;
+  text transform: uppercase;
+}
